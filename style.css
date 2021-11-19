@@ -9,10 +9,11 @@
 body{
   background-image: url(img/TOPUP.png);
   padding: 0 10px;
+  background-repeat: no-repeat;
 }
 .wrapper{
   max-width: 500px;
-  width: 100%;
+  width: auto;
   background: white;
   margin: 50px auto;
   position: relative;
@@ -21,6 +22,8 @@ body{
   padding: 30px;
   border-radius: 7px;
 }
+
+
 
 .img{
   position: relative;
@@ -154,7 +157,7 @@ body{
 .wrapper .form .inputfield .btn{
   width: 100%;
   padding: 8px 10px;
-  font-size: 15px; 
+  font-size: 15px;
   border: 0px;
   background:  #4a09b3;
   color: #fff;
@@ -288,10 +291,10 @@ border-color: #23458F;
   opacity: 1;
 }
 .testim .cont > div.active{
-  
+
   position: relative;
   opacity: 1;
-  
+
 }
 .testim .cont div .img img{
   display: block;
@@ -574,4 +577,28 @@ footer {
   .footer-distributed .footer-center i {
       margin-left: 0;
   }
-}       
+}
+
+@media (max-width: 1024px) {
+  .wrapper{
+    position: relative;
+    left: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper{
+    position: relative;
+    left: 0;
+  }
+}
+@media (max-width: 425px){
+  .virus{
+    width: 100%;
+  }
+}
+@media (max-width: 320px){
+  .virus{
+    width: 100%;
+  }
+}
