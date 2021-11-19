@@ -7,9 +7,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background-image: url(img/TOPUP.png);
+  /*background-image: url(img/TOPUP.png);
   padding: 0 10px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
+  background-color: #23458f
+}
+
+.backgroundImg{
+  position: absolute;
+  width: 100%;
+
 }
 .wrapper{
   max-width: 500px;
@@ -22,8 +29,6 @@ body{
   padding: 30px;
   border-radius: 7px;
 }
-
-
 
 .img{
   position: relative;
@@ -580,6 +585,9 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .backgroundImg{
+    top: 20%;
+  }
   .wrapper{
     position: relative;
     left: 25%;
@@ -587,6 +595,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .backgroundImg{
+    position: relative;
+    width: 170%;
+  }
   .wrapper{
     position: relative;
     left: 0;
