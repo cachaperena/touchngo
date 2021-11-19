@@ -595,9 +595,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .cropped{
+    overflow: hidden;
+  }
+  .cropped img{
+    margin: 0 -200px 0 0;
+  }
   .backgroundImg{
     position: relative;
-    width: 170%;
+    width: 190%;
   }
   .wrapper{
     position: relative;
